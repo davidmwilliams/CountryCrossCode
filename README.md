@@ -1,4 +1,4 @@
-# CountryCrossCode
+# CountryGuessGame
 iOS country guessing game
 
 This is an XCode project for the iPhone which gets a list of country names from the Swift API ISO3166 list and prompts people to type in their guesses. The game tells them if the answer is alphabetically higher or lower than their guess, and by how many countries.
