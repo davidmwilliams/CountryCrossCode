@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1045A90E2DD9E46B00F086FF /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1045A90D2DD9E46B00F086FF /* ConfettiSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E3E1812DD9BC29005E1321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10E3E16B2DD9BC27005E1321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10E3E1722DD9BC27005E1321;
+			remoteInfo = CountryGuessGame;
+		};
+		10E3E18B2DD9BC29005E1321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10E3E16B2DD9BC27005E1321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10E3E1722DD9BC27005E1321;
+			remoteInfo = CountryGuessGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E3E1732DD9BC27005E1321 /* CountryGuessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryGuessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E3E1802DD9BC29005E1321 /* CountryGuessGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryGuessGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E3E18A2DD9BC29005E1321 /* CountryGuessGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryGuessGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		10E3E1752DD9BC27005E1321 /* CountryGuessGame */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CountryGuessGame;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E3E1702DD9BC27005E1321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1045A90E2DD9E46B00F086FF /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E3E17D2DD9BC29005E1321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E3E1872DD9BC29005E1321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E3E16A2DD9BC27005E1321 = {
+			isa = PBXGroup;
+			children = (
+				10E3E1752DD9BC27005E1321 /* CountryGuessGame */,
+				10E3E1742DD9BC27005E1321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10E3E1742DD9BC27005E1321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E3E1732DD9BC27005E1321 /* CountryGuessGame.app */,
+				10E3E1802DD9BC29005E1321 /* CountryGuessGameTests.xctest */,
+				10E3E18A2DD9BC29005E1321 /* CountryGuessGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E3E1722DD9BC27005E1321 /* CountryGuessGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E3E1942DD9BC29005E1321 /* Build configuration list for PBXNativeTarget "CountryGuessGame" */;
+			buildPhases = (
+				10E3E16F2DD9BC27005E1321 /* Sources */,
+				10E3E1702DD9BC27005E1321 /* Frameworks */,
+				10E3E1712DD9BC27005E1321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				10E3E1752DD9BC27005E1321 /* CountryGuessGame */,
+			);
+			name = CountryGuessGame;
+			packageProductDependencies = (
+				1045A90D2DD9E46B00F086FF /* ConfettiSwiftUI */,
+			);
+			productName = CountryGuessGame;
+			productReference = 10E3E1732DD9BC27005E1321 /* CountryGuessGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10E3E17F2DD9BC29005E1321 /* CountryGuessGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E3E1972DD9BC29005E1321 /* Build configuration list for PBXNativeTarget "CountryGuessGameTests" */;
+			buildPhases = (
+				10E3E17C2DD9BC29005E1321 /* Sources */,
+				10E3E17D2DD9BC29005E1321 /* Frameworks */,
+				10E3E17E2DD9BC29005E1321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E3E1822DD9BC29005E1321 /* PBXTargetDependency */,
+			);
+			name = CountryGuessGameTests;
+			packageProductDependencies = (
+			);
+			productName = CountryGuessGameTests;
+			productReference = 10E3E1802DD9BC29005E1321 /* CountryGuessGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10E3E1892DD9BC29005E1321 /* CountryGuessGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E3E19A2DD9BC29005E1321 /* Build configuration list for PBXNativeTarget "CountryGuessGameUITests" */;
+			buildPhases = (
+				10E3E1862DD9BC29005E1321 /* Sources */,
+				10E3E1872DD9BC29005E1321 /* Frameworks */,
+				10E3E1882DD9BC29005E1321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E3E18C2DD9BC29005E1321 /* PBXTargetDependency */,
+			);
+			name = CountryGuessGameUITests;
+			packageProductDependencies = (
+			);
+			productName = CountryGuessGameUITests;
+			productReference = 10E3E18A2DD9BC29005E1321 /* CountryGuessGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E3E16B2DD9BC27005E1321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					10E3E1722DD9BC27005E1321 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					10E3E17F2DD9BC29005E1321 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 10E3E1722DD9BC27005E1321;
+					};
+					10E3E1892DD9BC29005E1321 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 10E3E1722DD9BC27005E1321;
+					};
+				};
+			};
+			buildConfigurationList = 10E3E16E2DD9BC27005E1321 /* Build configuration list for PBXProject "CountryGuessGame" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E3E16A2DD9BC27005E1321;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1045A90C2DD9E46B00F086FF /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10E3E1742DD9BC27005E1321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E3E1722DD9BC27005E1321 /* CountryGuessGame */,
+				10E3E17F2DD9BC29005E1321 /* CountryGuessGameTests */,
+				10E3E1892DD9BC29005E1321 /* CountryGuessGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E3E1712DD9BC27005E1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E3E17E2DD9BC29005E1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E3E1882DD9BC29005E1321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E3E16F2DD9BC27005E1321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E3E17C2DD9BC29005E1321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E3E1862DD9BC29005E1321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E3E1822DD9BC29005E1321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10E3E1722DD9BC27005E1321 /* CountryGuessGame */;
+			targetProxy = 10E3E1812DD9BC29005E1321 /* PBXContainerItemProxy */;
+		};
+		10E3E18C2DD9BC29005E1321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10E3E1722DD9BC27005E1321 /* CountryGuessGame */;
+			targetProxy = 10E3E18B2DD9BC29005E1321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10E3E1922DD9BC29005E1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10E3E1932DD9BC29005E1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E3E1952DD9BC29005E1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42W457GMP4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess the Country";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataexcellence.CountryGuessGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E3E1962DD9BC29005E1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42W457GMP4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess the Country";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataexcellence.CountryGuessGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10E3E1982DD9BC29005E1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataexcellence.CountryGuessGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryGuessGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryGuessGame";
+			};
+			name = Debug;
+		};
+		10E3E1992DD9BC29005E1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataexcellence.CountryGuessGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryGuessGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountryGuessGame";
+			};
+			name = Release;
+		};
+		10E3E19B2DD9BC29005E1321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataexcellence.CountryGuessGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountryGuessGame;
+			};
+			name = Debug;
+		};
+		10E3E19C2DD9BC29005E1321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataexcellence.CountryGuessGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountryGuessGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E3E16E2DD9BC27005E1321 /* Build configuration list for PBXProject "CountryGuessGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E3E1922DD9BC29005E1321 /* Debug */,
+				10E3E1932DD9BC29005E1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E3E1942DD9BC29005E1321 /* Build configuration list for PBXNativeTarget "CountryGuessGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E3E1952DD9BC29005E1321 /* Debug */,
+				10E3E1962DD9BC29005E1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E3E1972DD9BC29005E1321 /* Build configuration list for PBXNativeTarget "CountryGuessGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E3E1982DD9BC29005E1321 /* Debug */,
+				10E3E1992DD9BC29005E1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E3E19A2DD9BC29005E1321 /* Build configuration list for PBXNativeTarget "CountryGuessGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E3E19B2DD9BC29005E1321 /* Debug */,
+				10E3E19C2DD9BC29005E1321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1045A90C2DD9E46B00F086FF /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1045A90D2DD9E46B00F086FF /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1045A90C2DD9E46B00F086FF /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 10E3E16B2DD9BC27005E1321 /* Project object */;
+}
